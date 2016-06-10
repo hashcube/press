@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Gummy Pop</title>
+	<release-date></release-date>
+	<website>http://www.playgummypop.com/</website>
+	<press-can-request-copy>TRUE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>Apple App Store</name>
+			<link>https://itunes.apple.com/in/app/gummy-pop/id1021924332</link>
+		</platform>
+		<platform>
+			<name>Google Play Store</name>
+			<link>https://play.google.com/store/apps/details?id=com.hashcube.bubble</link>
+		</platform>
+		<platform>
+			<name>Amazon App Store</name>
+			<link>https://www.amazon.com/hashcube-inc-Gummy-Pop/dp/B01G8KDY8A</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+	</prices>
+
+	<description>STOP MATCHING and START POPPING! Pop the adorable GUMMIES to create incredible Chain Reactions!
+  
+	Download Now and enjoy the crazy chain reactions, super-fun power-ups, amazing level variations and incredible popping fun across hundreds of poptastic levels!
+  </description>
+	
+	<history></history>
+
+	<features>
+	<feature>Unique and Exciting Chain Reaction Mechanic: An interesting new take on chain reaction mechanic: Grow Gummies - Pop Gummies - Create amazing chain reactions.</feature>
+	<feature>Amazing Power Ups to help you in sticky situations: 9 awesome powerups to choose from, select the powerup that suits your gameplay style.</feature>
+	<feature>Adorable Characters that you'll love: Four different gummies that grow from the sleepy Green gummy to the active Red gummy.</feature>
+	<feature>5 distinct game variations: Never run out of fun with 5 different game variations. Keep an eye out for the interesting challenges.</feature>
+	280 Challenging Levels: Play all 280 levels along your journey across 5 different worlds. 
+	<feature>Deceptively Simple and Incredibly Fun Gameplay : Strategize to form clusters of red gummies, the bigger the clusters, the better the Chain reactions</feature>
+	<feature>Captivating Music and Sound: Enjoy your journey across the mystery lands with awesome music to keep you entertained.</feature>
+	<feature>Compete with friends for high scores : Challenge your friends, beat them by saving more gummies, compete on global leaderboards and be the Poppin’ champ.</feature>
+	<feature>Play across multiple devices without losing progress: Sync with facebook and save your progress across all platforms, including Android, iOS and Amazon.</feature>
+	</features>
+	
+	<trailers>
+		<trailer>
+			<name>Trailer</name>
+			<youtube>Wa26b9gIqYE</youtube>
+		</trailer>
+	</trailers>
+	
+	<awards>
+	</awards>
+	
+	<press>
+	</press>
+	
+	<additionals>
+	</additionals>
+	
+	<credits>
+	</credits>
+</game>

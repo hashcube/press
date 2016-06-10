@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Sudoku Quest</title>
+	<release-date></release-date>
+	<website>http://sudokuquest.com/</website>
+	<press-can-request-copy>TRUE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>Apple App Store</name>
+			<link>https://itunes.apple.com/app/sudoku-quest+/id671755288</link>
+		</platform>
+		<platform>
+			<name>Google Play Store</name>
+			<link>https://play.google.com/store/apps/details?id=com.hashcube.sudokuquest</link>
+		</platform>
+		<platform>
+			<name>Amazon App Store</name>
+			<link>http://www.amazon.com/gp/product/B00ECIKGYG/ref=mas_pm_Sudoku%20Quest</link>
+		</platform>
+		<platform>
+			<name>Facebook</name>
+			<link>https://apps.facebook.com/sudokuquest</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+	</prices>
+
+	<description>With 600+ levels and 11 mind-bending variations, Sudoku Quest is the most unique Free Sudoku game for Android out there!
+  Embark on a quest to explore mysterious islands to unite a shattered kingdom. Defeat the evil sorcerer and fulfill your destiny to become a Sudoku Champion!
+  Features
+
+  So why wait Sudoku lovers? Download our Free Sudoku App now!
+  You will never see Sudoku in the same way again! Embark on a journey of a lifetime and start your Sudoku Quest.</description>
+	
+	<history></history>
+
+	<features>
+		<feature>More than 10,000 Free Sudoku puzzles spread over 600+ levels. A new puzzle every time you retry.</feature>
+		<feature>Whether you're a beginner or an expert, you'll love Sudoku Quest.</feature>
+		<feature>Fun variations of the classic Sudoku Game like 4x4, 6x6, 8x8, 9x9, 10x10, 12x12, Evil Sudoku, Squiggly Sudoku, Killer (Samurai) Overlapping Sudoku etc.</feature>
+		<feature>Amazing powerups that help you become a better Sudoku player.</feature>
+		<feature>Hint - Solves one random blank or empty cell.</feature>
+		<feature>Magic Eye - Helps you concentrate on one number.</feature>
+		<feature>Auto Pencil - Displays all possible solutions.</feature>
+		<feature>Eight fantasy worlds to conquer.</feature>
+		<feature>Helpful tips and tactics to make you a Sudoku expert.</feature>
+		<feature>Rating system to help you improve your results.</feature>
+		<feature>Only Free Sudoku App with color mode</feature>
+		<feature>Play on all your devices without losing progress.</feature>
+		<feature>Simple interface with intuitive touch controls.</feature>
+		<feature>Unlimited undo and delete options.</feature>
+		<feature>Smart note taking feature.</feature>
+		<feature>Duplicate number indicator.</feature>
+		<feature>Challenge yourself to complete achievements.</feature>
+		<feature>Play and exchange gifts with friends.</feature>
+		<feature>Engaging story, colorful characters and charming music.</feature>
+		<feature>Optimized for both mobile phones and tablets.</feature>
+	</features>
+	
+	<trailers>
+		<trailer>
+			<name>Trailer</name>
+			<youtube>QmXw6koLLRY</youtube>
+		</trailer>
+	</trailers>
+	
+	<awards>
+	</awards>
+	
+	<press>
+	</press>
+	
+	<additionals>
+	</additionals>
+	
+	<credits>
+	</credits>
+</game>
