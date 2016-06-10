@@ -1,154 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- example file containing base tags -->
 
-<game>	
-	<title>Company Name</title>
-	<founding-date>September 1, 2010</founding-date>
-	<website>http://www.website.com</website>
-	<based-in>Cityville, Metropolisland</based-in>
-	
-	<press-contact>press-contact@company.com</press-contact>
-	<phone>+00 (1) 22 33 44 55 66</phone>
+<game>
+	<title>Hashcube</title>
+	<founding-date>2009</founding-date>
+	<website>http://www.hashcube.com</website>
+	<based-in></based-in>
+
+	<press-contact>marketing@hashcube.com</press-contact>
+	<phone>+91 8041657576</phone>
 	<address>
-		<line>Address Line 1</line>
-		<line>Address Line 2</line>
-		<line>Address Line 3</line>
+		<line>2600 El Camino Real, Suite 403</line>
+		<line>Palo Alto</line>
+		<line>CA 94306</line>
 	</address>
 
 	<socials>
 		<social>
-			<name>twitter.com/MyCompanyName</name>
-			<link>twitter.com/MyCompanyName</link>
+			<name>twitter.com/hashcube</name>
+			<link>twitter.com/hashcube</link>
 		</social>
 		<social>
-			<name>facebook.com/MyCompanyName</name>
-			<link>facebook.com/MyCompanyName</link>
+			<name>facebook.com/hashcube</name>
+			<link>facebook.com/hashcube</link>
 		</social>
 		<social>
-			<name>Skype</name>
-			<link>callto:MySkypeName</link>
+			<name>youtube.com/user/hashcubedotcom</name>
+			<link>youtube.com/user/hashcubedotcom</link>
 		</social>
 	</socials>
 
-	<description>	
-		We're games studio and we make games. We're also capable of editing XML files.
+	<description>
+		Hashcube is a cross platform mobile and social gaming platform with multiple titles on iOS, Android, Amazon and Facebook platforms.
+
+		Our flagship title, Sudoku Quest is the most monetizing Sudoku app across platforms, and has monetized 10x more than competition. With over 3 million users, the game is available across Android, iOS, Amazon and Facebook platforms and has been consistently growing over the years in terms of user base and revenue.
+
+		Our latest title, Gummy Pop is a one of a kind ‘Chain reaction’ game that has the potential to disrupt the monopoly of match- 3 genre with its uniquely exciting and engaging mechanism. With 280 unique levels, 5 different variations and 9 exciting power-ups to play with, Gummy pop surely has the potential to reach the top grossing charts globally.
 	</description>
-		
+
 	<histories>
 		<history>
-			<header>Early history</header>
-			<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel nisi dolor. Pellentesque vitae eros velit, quis venenatis orci. Phasellus elit urna, semper ut gravida et, porta non dui. Aliquam erat volutpat. Aenean porta volutpat imperdiet. Maecenas venenatis, tellus eget vehicula vulputate, augue erat elementum quam, tincidunt laoreet magna orci et mauris. Proin porttitor pharetra nisi, accumsan sollicitudin neque varius a. Aenean ut massa ipsum, id hendrerit lacus. Maecenas posuere egestas nunc at cursus. Etiam mollis libero vel eros pulvinar aliquam. Sed vitae turpis sed nibh venenatis dictum. Sed suscipit orci justo, at sagittis ante. Sed leo nisl, ultricies in fermentum id, aliquam id dolor. Ut laoreet, felis id posuere bibendum, arcu ipsum lacinia est, eu lobortis velit enim eget mi. In ullamcorper ullamcorper enim ut gravida. Vivamus rutrum lacus mollis risus malesuada iaculis.</text>
-		</history>
-		<history>
-			<header>After that</header>
-			<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem dui, volutpat eu adipiscing sed, rutrum aliquam lacus. Proin sollicitudin consequat dolor id dignissim. Aliquam sem turpis, sagittis lobortis viverra eget, varius vitae nunc. Proin ac lacus porttitor dui sollicitudin elementum. Nulla ut hendrerit est. Fusce vitae arcu erat, vel molestie est. Proin et placerat justo. Proin placerat arcu massa, eu blandit leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eu lorem sed massa lobortis hendrerit vitae vel odio. Maecenas eget pulvinar tortor. Nunc vitae nisl ac odio bibendum luctus ac a leo. Suspendisse auctor elit et velit sagittis vehicula. Maecenas faucibus blandit rutrum. Duis et sem nibh. Vestibulum placerat elit et dui rhoncus accumsan.</text>
+			<header>History</header>
+			<text>Hashcube, started its journey back in 2008, with a sudoku website and has grown to be one of the few studios in India building successful casual games on freemium model.
+
+      When our co-founders started they just wanted to make games that are simple and fun to play. The ‘simplicity’ has always been the key ingredient of our games here at Hashcube. Our co-founders believed “Simple can be harder than complex”, and that approach has driven the team to make easy to play, fun games for our users.</text>
 		</history>
 	</histories>
-		
+
 	<trailers>
 		<trailer>
-			<name>This video is nice</name>
-			<youtube>7jQbITg0MSk</youtube>
+			<name>Sudoku Quest</name>
+			<youtube>QmXw6koLLRY</youtube>
 		</trailer>
 		<trailer>
-			<name>This one too</name>
-			<youtube>0CevOaYrYDA</youtube>
-			<vimeo>12536488</vimeo>
+			<name>Gummy Pop</name>
+			<youtube>Wa26b9gIqYE</youtube>
 		</trailer>
 	</trailers>
-	
+
 	<awards>
-		<award>
-			<description>Winner in this highly relevant contest.</description>
-			<info>Award Location, 20 October, 1989</info>
-		</award>
-		<award>
-			<description>Nomination for this prestigious award.</description>
-			<info>Award Ceremony, 4 December, 1991</info>
-		</award>
-		<award>
-			<description>Winner in this highly relevant contest.</description>
-			<info>Award Location, 20 October, 1989</info>
-		</award>
-		<award>
-			<description>Nomination for this prestigious award.</description>
-			<info>Award Ceremony, 4 December, 1991</info>
-		</award>
 	</awards>
-	
-	<quotes>
-		<quote>
+
+	<press>
+		<url>
+			<name>Times of India</name>
+			<link>http://timesofindia.indiatimes.com/business/india-business/Nazara-backs-gaming-startup-HashCube/articleshow/45052091.cms</link>
 			<description>This is a rather insignificant quote by a highly important person.</description>
-			<name>Person Name</name>
-			<website>Website</website>
-			<link>http://www.website.com/</link>
-		</quote>
-		<quote>
-			<description>An extremely positive quote from a rather insignificant person. Also great.</description>
-			<name>Some Guy</name>
-			<website>This Page Is Visited By 12 Visitors A Month</website>
-			<link>http://geocities.blog.com/</link>
-		</quote>
-		<quote>
-			<description>I pretend to love this game even though I do not actually understand it.</description>
-			<name>Pretentious Bastard</name>
-			<website>Artsy Page</website>
-			<link>http://art.tumblr.com/</link>
-		</quote>
-		<quote>
-			<description>HOLY SHIT SO AMAZING</description>
-			<name>Caps Guy</name>
-			<website>Angry Review</website>
-			<link>http://thispage.net/angrytube</link>
-		</quote>
-	</quotes>
-	
+		</url>
+		<url>
+			<name>Your Story</name>
+			<link>http://yourstory.com/2012/07/indian-angel-network-invests-in-hashcube-a-social-gaming-company/</link>
+		</url>
+		<url>
+			<name>inc42</name>
+			<link>https://inc42.com/buzz/hashcube-funding/</link>
+		</url>
+	</press>
+
 	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
 	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
-																			 	ask (permission on case-per-case basis),
-																			 	non-commercial (no monetization allowed),
-																			 	monetize (full permission) -->	
-	<additionals>
-		<additional>
-			<title>Company Link #1</title>
-			<description>This link is a link that might be useful. You can check it out at</description>
-			<link>http://somemusicsite.com/thislink</link>
-		</additional>
-	</additionals>
-	
-	<credits>
-		<credit>
-			<person>John Doe</person>
-			<role>Artist, Freelancer</role>
-		</credit>
-		<credit>
-			<person>Oliver Twist</person>
-			<website>www.olivertwist.com</website>
-			<role>Artist, Freelancer</role>
-		</credit>
-		<credit>
-			<person>Jane Doette</person>
-			<website>www.olivertwist.com</website>
-			<role>Music, Freelancer</role>
-		</credit>
-	</credits>
-	
+																				ask (permission on case-per-case basis),
+																				non-commercial (no monetization allowed),
+																				monetize (full permission) -->
+
+	<additionals></additionals>
+
+	<credits></credits>
+
 	<contacts>
 		<contact>
-			<name>Inquiries</name>
-			<mail>rami@vlambeer.com</mail>
+			<name>Marketing / Partnership Enquiries</name>
+			<mail>marketing@hashcube.com</mail>
 		</contact>
 		<contact>
 			<name>Twitter</name>
-			<link>http://twitter.com/MyCompanyName</link>
+			<link>http://twitter.com/hashcube</link>
 		</contact>
 		<contact>
 			<name>Facebook</name>
-			<link>http://facebook.com/MyCompanyName</link>
+			<link>http://facebook.com/hashcube</link>
 		</contact>
 		<contact>
 			<name>Web</name>
-			<link>MyCompanyWebsite.com</link>
+			<link>hashcube.com</link>
 		</contact>
 	</contacts>
 </game>

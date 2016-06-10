@@ -31,7 +31,7 @@
                         {% if file_exists("images/images.zip") or images|length > 0 %}{% block images_screenshots %}{% endblock %}{% endif %}
                         {% if logo %}<li><a href="#logo">Logo & Icon</a></li>{% endif %}
                         {% if common.awards|length > 0 %}<li><a href="#awards">Awards & Recognition</a></li>{% endif %}
-                        {% if common.quotes|length > 0 %}<li><a href="#quotes">Selected Articles</a></li>{% endif %}
+                        {% if common.press|length > 0 %}<li><a href="#press">Press</a></li>{% endif %}
                         {% block _navpreview %}{% endblock %}
                         {% if common.additionals|length > 0 %}<li><a href="#links">Additional Links</a></li> {% endif %}
                         {% block _navabout %}{% endblock %}
@@ -166,11 +166,13 @@
                         <hr>
                     {% endif %}
 
-                    {% if common.quotes|length > 0 %}
-                        <h2 id="quotes">Selected Articles</h2>
+                    {% if common.press|length > 0 %}
+                        <h2 id="press">Press</h2>
                         <ul>
-                            {% for quote in common.quotes.quote %}
-                                <li>"{{ quote.description }}"<br/><cite>- {{ quote.name }}, <a href="{{ parse_url(quote.link) }}">{{ quote.website }}</a></cite></li></li>
+                            {% for url in common.press.url %}
+                                <li>
+                                   <a href="{{ parse_url(url.link) }}">{{ url.name }}</a>
+                                </li>
                             {% endfor %}
 
                         </ul>
@@ -236,9 +238,6 @@
                         </div>
                         <hr>
                     {% endif %}
-
-
-                    <p><a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="http://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href={% block credit_path %}{% endblock %}>these fine folks</a></p>
                 </div>
             </div>
         </div>
