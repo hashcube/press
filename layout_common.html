@@ -43,7 +43,7 @@
                 <div id="content" class="uk-width-medium-3-4">
 
                     {% if file_exists("images/header.png") %}
-                        <img src="images/header.png" class="header">
+                        <img src="{{ common.cdn or 'images' }}/header.png" class="header">
                     {% endif %}
 
                     <div class="uk-grid">
@@ -115,14 +115,14 @@
 
                         {% if file_exists("images/images.zip") %}
                             {% set fsize = filesize("images/images.zip") %}
-                            <a href="images/images.zip"><div class="uk-alert">download all screenshots &amp; photos as .zip ({{ fsize|filesizeformat }})</div></a>
+                            <a href="{{ common.cdn or 'images' }}/images.zip"><div class="uk-alert">download all screenshots &amp; photos as .zip ({{ fsize|filesizeformat }})</div></a>
                         {% endif %}
 
 
                         {% if images|length > 0 %}
                             <div class="uk-grid images">
                                 {% for image in images %}
-                                    <div class="uk-width-medium-1-2"><a href="images/{{ image }}"><img src="images/{{ image }}" alt="{{ image }}" /></a></div>
+                                    <div class="uk-width-medium-1-2"><a href="{{ common.cdn or 'images' }}/{{ image }}"><img src="{{ common.cdn or 'images'}}/{{ image }}" alt="{{ image }}" /></a></div>
                                 {% endfor %}
                             </div>
                         {% endif %}
@@ -138,17 +138,17 @@
 
                         {% if logo_zip %}
                             {% set fsize = filesize("images/logo.zip") %}
-                            <a href="images/logo.zip"><div class="uk-alert">download logo files as .zip ({{ fsize|filesizeformat }})</div></a>
+                            <a href="{{ common.cdn or 'images' }}/logo.zip"><div class="uk-alert">download logo files as .zip ({{ fsize|filesizeformat }})</div></a>
                         {% endif %}
 
                         <div class="uk-grid images">
 
                         {% if logo_png %}
-                            <div class="uk-width-medium-1-2"><a href="images/logo.png"><img src="images/logo.png" alt="logo" /></a></div>
+                            <div class="uk-width-medium-1-2"><a href="{{ common.cdn or 'images' }}/logo.png"><img src="{{ common.cdn or 'images' }}/logo.png" alt="logo" /></a></div>
                         {% endif %}
 
                         {% if icon_png %}
-                            <div class="uk-width-medium-1-2"><a href="images/icon.png"><img src="images/icon.png" alt="logo" /></a></div>
+                            <div class="uk-width-medium-1-2"><a href="{{ common.cdn or 'images' }}/icon.png"><img src="{{ common.cdn or 'images' }}/icon.png" alt="logo" /></a></div>
                         {% endif %}
 
                         </div>
