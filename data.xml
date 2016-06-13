@@ -3,6 +3,7 @@
 
 <game>
 	<title>Hashcube</title>
+	<cdn>https://s3.amazonaws.com/hashcube/images/press</cdn>
 	<founding-date>2009</founding-date>
 	<website>http://www.hashcube.com</website>
 	<based-in></based-in>

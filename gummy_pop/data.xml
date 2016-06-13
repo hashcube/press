@@ -2,6 +2,7 @@
 
 <game>
 	<title>Gummy Pop</title>
+	<cdn>https://s3.amazonaws.com/hashcube/images/press/gummy_pop</cdn>
 	<release-date></release-date>
 	<website>http://www.playgummypop.com/</website>
 	<press-can-request-copy>TRUE</press-can-request-copy>
