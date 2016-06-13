@@ -2,7 +2,7 @@
 
 {% block title %}{{ project.title }}{% endblock %}
 {% block css_path %}"../style.css"{% endblock %}
-{% block company_path %}"../index.html"{% endblock %}
+{% block company_path %}"{{ project.company_path or '..' }}/index.html"{% endblock %}
 {% block credit_path %}"../credits.html"{% endblock %}
 {% block histories_history %}
     {% if project.history|length > 0 %}
